@@ -1,0 +1,395 @@
+/* .conatiner{
+   text-align: center; 
+   margin: 0;
+} */
+.navbar-light {
+    background-color: rgba(14, 85, 133, 0.952);
+}
+
+.navbar-light .navbar-brand {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: aliceblue;
+}
+
+a {
+    color: #ffffff;
+}
+
+.img-logo {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.navbar {
+    margin: 0;
+}
+
+/* body{
+    background-image: url("./Social-Media-Content-Ideas-for-Doctors-Featured-Image-1024x576.png");
+    background-repeat: no-repeat;  
+    /* background-attachment: scroll;  */
+/* background-size: cover;
+     
+} */
+.nav-text {
+    /* font-style: italic; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hero {
+    width: 100%;
+    height: 90vh;
+    background: url(media/hero-bg.jpg) top center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: -200px;
+}
+
+.container {
+    margin: 15%;
+    margin-left: 2%;
+}
+
+#hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 35px;
+    margin-top: 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #1977cc;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+h1,h2 {
+    color: #033a72;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer {
+    /* position: absolute; */
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+    background: #144680;
+    /* height: auto;
+    width: 100vw; */
+    padding: 50px;
+    color: #fff;
+}
+.flex-container{
+    display: flex;
+   flex-direction: row;
+   /* justify-content: center; */
+   align-items: center;
+}
+.flex-container > div {
+    margin: 10px;
+    font-size: 20px;
+    
+  }
+.icon-flex3{
+   text-align: center;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.card {
+    border: none !important;
+    box-shadow: 1px 2px 2px 2px rgb(116, 181, 224);
+    background-color: azure;
+}
+
+.cardview {
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.cardimg {
+    width: 140px;
+    height: 140px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+#flask-card-img {
+    width: 200px;
+    height: 165px;
+    border-radius: 90px;
+}
+
+.form {
+    margin: auto;
+    background-color: #c0d8ec;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #e0ebf5;
+}
+
+.formtable {
+    margin: auto;
+    background-color: #99c4e9;
+    padding: 10px;
+
+}
+.aboutimg{
+    background-image: url("media/images.jfif");
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.about-us{
+   width: 66%;
+    height: 71%;
+   margin: auto;
+}
+.clickabout{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #01285c;
+}
+.hospitalimg{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+#abouttxt{
+   
+    text-align: center;
+    margin: 20px;
+}
+.intro{
+    color: #01285c;
+    font-family: "Raleway", sans-serif;
+}
+.face {
+    width: 250px;
+    height: 250px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.face-text {
+    text-align: center;
+    margin: 3%;
+    padding: 10px;
+}
+
+.face-container {
+    display: flex;
+    width: 50%;
+    margin: 2%;
+    background-color: #99c4e9;
+    padding: 7px;
+    box-shadow: 2px 1px 2px 3px rgb(60, 82, 97);
+
+}
+
+.face1 {
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.face2 {
+    width: 250px;
+    height: 250px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon {
+    width: 50%;
+    margin-left: 45%;
+
+}
+
+.addbtn {
+    border-radius: 50%;
+    padding: 0px;
+    border: none;
+    display: inline-block;
+    background-color: #116291;
+}
+
+.iconbutton {
+    margin: auto;
+    width: 40px;
+}
+
+.Icontainer {
+    width: 50%;
+    margin-left: 45%;
+}
+
+.icon-container {
+    border-radius: 50%;
+    padding: 0;
+    display: inline-block;
+    border: none;
+    border-color: #fff;
+    background-color: transparent;
+}
+
+html,
+body {
+    height: 100%;
+    /* background: #800000; */
+}
+
+.card-content>.card {
+    margin: 1%;
+    width: calc(96% / 2);
+    background: #1a92b7;
+    border-radius: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 141px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    float: left;
+    color: #fff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.11);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.11);
+}
+
+.modelbtn {
+    padding: 0px;
+    /* display: none; */
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+.modal-content {
+    background-color: #7eb6e7;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px rgb(54, 113, 168);
+}
+
+.card-header-title {
+    background-color: #033a72;
+}
+
+.card-element-title {
+    color: whitesmoke;
+}
+
+.form-text {
+    color: #01285c;
+}
+
+.contactform{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(91, 203, 211, 0.247);
+    padding: 20px;
+}
+#text{
+    text-align: center;
+    color: #e5e9ec;
+    margin: 20px;
+}
+input[type],textarea{
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #99c4e9;
+    border: none;
+}
+
+.text-contact{
+    width: 50%;
+    margin :auto;
+    color: #01285c;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+.contact-form{
+    background-color: #deeaf5;
+   margin: auto;
+    width: 60%;
+}
+.col7{
+    background-color: #c9e0fa;
+}
+.layer-content{
+    margin: 10px;
+}
+.bluebg{
+    margin: 10px;
+}
+.bgimgcon{
+    
+    margin-top: 30px;
+    display: flex;
+    
+    justify-content: center;
+}
+.imgcon{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 40px;
+}
+.cntx{
+    display: flex;
+    align-items: center;
+}
+.home-contact{
+    padding: 20px;
+}

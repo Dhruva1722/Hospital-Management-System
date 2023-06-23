@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Patient Record</title>
+
+    
+
+
+</head>
+<body>
+
+    <form action="extra.php" method="POST">
+
+        <label for="id">Patient ID:</label>
+        <input type="number" id="id" name="id"><br><br>
+
+        <label for="field">Field to edit:</label>
+        <select id="field" name="field">
+            <option value="pName">Patient Name</option>
+            <option value="disease">Disease</option>
+            <option value="age">Age</option>
+            <option value="roomNo">Room No</option>
+            <option value="pAddress">Patient Address</option>
+            <option value="gender">Gender</option>
+        </select><br><br>
+
+        <label for="newValue">New Value:</label>
+        <input type="text" id="newValue" name="newValue"><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    <script>
+        function editData() {
+            // Get the form data
+            const form = document.querySelector('form');
+            const formData = new FormData(form);
+
+            // Send a POST request to the server
+            fetch('extra.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(data => {
+                // Display the result of the server response
+                console.log(data);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+        }
+    </script>
+</body>
+</html>
